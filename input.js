@@ -17,6 +17,7 @@ const handleUserInput = function(data) {
   if (data === "\u0003") {
     process.exit();
   }
+  //moving data
   if (data === "w" || data === "W") {
     connection.write("Move: up");
   }
@@ -28,6 +29,16 @@ const handleUserInput = function(data) {
   }
   if (data === "d" || data === "D") {
     connection.write("Move: right");
+  }
+  //speaking data
+  if (data === "z" || data === "Z") {
+    connection.write("Say: YUP");
+  }
+  if (data === "x" || data === "X") {
+    connection.write("Say: No chance");
+  }
+  if (data === "c" || data === "C") {
+    connection.write("Say: lets goo");
   }
 
 };
