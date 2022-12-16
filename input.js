@@ -40,6 +40,9 @@ const handleUserInput = function(data) {
   if (data === "c" || data === "C") {
     connection.write("Say: lets goo");
   }
+  if (data === "v" || data === "V") {
+    connection.write("Say: too slow");
+  }
 
 };
 
