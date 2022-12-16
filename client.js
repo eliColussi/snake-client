@@ -9,13 +9,15 @@ const connect = function () {
   // establishes a connection with the game server
 
   conn.on("connect", () => {
-    console.log("succesfully connected to the game server");
-    conn.write("Name: Eli");
+    console.log("succesfully connected to the game server"); 
+    conn.write("Name: Eli"); //give snake my name, i am the snake
   });
+
   conn.on('data', (data) => {
     console.log(data.toString());
     conn.end();
   });
+  
   conn.on("end", () => {
     console.log("It's got a sharp tongue, this server!");
   });
