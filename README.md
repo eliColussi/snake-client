@@ -8,9 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![""](Screen Shot 2022-12-15 at 8.24.29 PM.png)
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["initial screen before connecting to server"](pictures/Screen%20Shot%202022-12-15%20at%208.24.29%20PM.png)
+!["once conncected, your snake appears"](pictures/Screen%20Shot%202022-12-15%20at%208.25.09%20PM.png)
+!["terminal confirmation of connection, and then exit after idle or failiure"](pictures/Screen%20Shot%202022-12-15%20at%208.25.58%20PM.png)
 
 ## Getting Started
 
