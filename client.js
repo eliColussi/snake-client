@@ -17,7 +17,7 @@ const connect = function () {
     console.log(data.toString());
     conn.end();
   });
-  
+
   conn.on("end", () => {
     console.log("It's got a sharp tongue, this server!");
   });
@@ -28,8 +28,6 @@ const connect = function () {
 
 };
 
-console.log("Connecting ...");
-connect();
 
 module.exports = {connect};
 
